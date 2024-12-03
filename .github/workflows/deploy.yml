@@ -169,7 +169,7 @@ jobs:
           script_stop: true
           script: |
             set -e
-            source $HOME/.zshrc
+            source $HOME/.bashrc
             basedir=$HOME/shiro
             workdir=$basedir/${{ github.run_number }}
             mkdir -p $workdir
